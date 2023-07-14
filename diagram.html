@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>پروژه دیاگرام</title>
+  <style>
+    .box {
+      border: 1px solid #000;
+      padding: 10px;
+      margin: 10px;
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h2>Customers</h2>
+    <ul>
+      <li>id (PK)</li>
+      <li>name</li>
+      <li>city</li>
+      <li>age</li>
+    </ul>
+  </div>
+
+  <div class="box">
+    <h2>Warehouses</h2>
+    <ul>
+      <li>id (PK)</li>
+      <li>name</li>
+    </ul>
+  </div>
+
+  <div class="box">
+    <h2>Sales Invoices</h2>
+    <ul>
+      <li>id (PK)</li>
+      <li>customer_id</li>
+      <li>warehouse_id</li>
+      <li>product_id</li>
+      <li>quantity</li>
+      <li>date</li>
+    </ul>
+  </div>
+
+  <div class="box">
+    <h2>Products</h2>
+    <ul>
+      <li>id (PK)</li>
+      <li>name</li>
+      <li>brand</li>
+      <li>color</li>
+      <li>model</li>
+      <li>features</li>
+    </ul>
+  </div>
+</body>
+</html> 
